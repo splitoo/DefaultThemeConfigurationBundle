@@ -5,15 +5,13 @@
     "homepage": "https://github.com/yshyshkin/DefaultThemeConfigurationBundle",
     "type": "symfony-bundle",
     "license": "MIT",
+    "version": "1.1.2",
     "authors": [
         {
             "name": "Yevhen Shyshkin",
             "email": "shishkin.yevgeniy@gmail.com"
         }
     ],
-    "require": {
-        "oro/commerce": "~4.1.1"
-    },
     "autoload": {
         "psr-4": { "YsTools\\Bundle\\DefaultThemeConfigurationBundle\\": "" },
         "exclude-from-classmap": ["/Tests/"]
